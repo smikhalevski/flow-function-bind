@@ -1,0 +1,17 @@
+{
+  "env": {
+    "flow": {
+      "plugins": [
+        "transform-function-bind",
+        "syntax-flow"
+      ]
+    },
+    "build": {
+      "presets": [
+        "es2015",
+        "flow",
+        "stage-0"
+      ]
+    }
+  }
+}

@@ -11,7 +11,7 @@
     "build": "BABEL_ENV=build babel src -d target/build",
     "babel-flow": "BABEL_ENV=flow babel src -d target/flow",
     "flow": "flow",
-    "flow-watch": "BABEL_ENV=flow babel src -d target/flow --watch & PID=$!; flow-watch; kill -9 $PID"
+    "flow-watch": "rm -rf target/flow; BABEL_ENV=flow babel src -d target/flow --watch & PID=$!; flow-watch; kill -9 $PID"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

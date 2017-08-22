@@ -2,8 +2,22 @@
   "env": {
     "flow": {
       "plugins": [
-        "transform-function-bind",
-        "syntax-flow"
+        "syntax-async-functions",
+        "syntax-async-generators",
+        "syntax-class-constructor-call",
+        "syntax-class-properties",
+        "syntax-decorators",
+        "syntax-do-expressions",
+        "syntax-dynamic-import",
+        "syntax-exponentiation-operator",
+        "syntax-export-extensions",
+        "syntax-flow",
+        "syntax-function-bind",
+        "syntax-object-rest-spread",
+        "syntax-trailing-function-commas",
+        "syntax-flow",
+
+        "transform-function-bind"
       ]
     },
     "build": {
